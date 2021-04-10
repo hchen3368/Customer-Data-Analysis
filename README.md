@@ -2,10 +2,10 @@
 
 ### This is an on-going data science project. We analyze and model a credit card customer dataset to explore the following questions:
 
-(1). What are the top key factors that affect **Customer Churn Rate**?
+(1). **Customer Churn Rate**, what are the top key affecting factors?
 
 (2). What is the overall **Financial Health Status** of our customers?
 
-(3). Is there a clustering structure in the data, i.e. **Customer Segmentation**?
+(3). **Customer Segmentation**, is there a clustering structure in the data?
 
-(4). What is the larger **Source of Income**, interest or transaction fee, according to this dataset?
+(4).**Source of Income**, Which part is larger, interest or transaction fee?
