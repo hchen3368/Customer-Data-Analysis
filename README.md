@@ -8,4 +8,4 @@
 
 (3). **Customer Segmentation**, is there a clustering structure in the data?
 
-(4).**Source of Income**, Which part is larger, interest or transaction fee?
+(4). **Source of Revenue**, Which part is larger, interest or transaction fee?
