@@ -1,6 +1,7 @@
 # Customer-Data-Analysis
 
-### This is an on-going data science project. We analyze and model a credit card customer dataset to explore the following questions:
+### This is an on-going data science project. 
+### We analyze and model a credit card customer dataset to explore the following questions:
 
 (1). **Customer Churn Rate**, what are the top key affecting factors?
 
