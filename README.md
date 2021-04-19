@@ -1,8 +1,8 @@
-![image](understand customer.png)
+
 
 # Customer-Data-Analysis
 
-### --- Understand your customers via Data Analysis and Machine Learning Models.
+This repository documents a data science project. In the project, we analyze and model a credit card customer dataset to answer business questions.
 
 
 
@@ -10,20 +10,20 @@
 ### Table of Contents
 
 
-1. [Motivation and Overview](#motivation)
+1. [Overview](#motivation)
 2. [File Descriptions](#files)
 3. [Results](#results)
-4. [Installation](#installation)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Environment](#installation)
+5. [Data Source](#source)
+5. [Licensing](#licensing)
 
 
 
-## Motivation and Overview<a name="motivation"></a>
+## Overview<a name="motivation"></a>
 
-### Understanding your customers is the key to successful business decision making.
-### In this project, we analyze and model a credit card customer dataset to explore the following questions:
+ Understanding your customers is the key to successful business decision making. In this project, we analyze and model a credit card customer dataset to explore the following three questions:
 
-(1). **Customer Churn Prediction**, can we predict which customers will stop using our product in the future?
+(1). **Customer Churn Prediction**, can we predict which customers will stop using our product in the future? 
 
 (2). **Customer Segmentation**, is there a clustering structure in the dataset?
 
@@ -35,40 +35,36 @@
 
 - 1_Notebook: Data Cleaning and EDA.
 
-              -- Impute missing data.
-              -- Encoding categorical features.
-              -- Extensive EDA.
-
 
 - 2_Notebook: Churn Prediction.
 
-              -- Customized Metric.
-              -- RandomForest, XGBoost, Logistic Classifiers.
 
 - 3_Notebook: Customer Segementation.
-
-              -- PCA and K-Mean Clustering.
 
 
 - 4_Notebook: Customer Lifetime Value Analysis.
 
-- 0_BankChurners.csv: the raw data.
+- 0_BankChurners.csv: This is the raw data.
 
-- 1_data_after_Notebook1: a pickle file that saves the cleaned dataset for later use.
+- 1_data_after_Notebook1: A pickle file that caches the data processed in 1_Notebook for later use.
 
-- helper_functions: python file contains several helper functions.
+- helper_functions: A python file contains several utility functions.
 
 ## Results Overview<a name="results"></a>
 
 
 The main findings of the code can be found at the post available [here](https://tba).
 
-## Installation <a name="installation"></a>
+## Environment <a name="installation"></a>
 
 - The Anaconda distribution of Python3.
 - Jupyter Notebook.  
 - XGBoost. See [here](https://xgboost.readthedocs.io/en/latest/build.html) for installation guide.
 
-## Licensing, Acknowledgements<a name="licensing"></a>
+## Data Source <a name="source"></a>
 
-The dataset comes from to this [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview). You can find the Licensing for the data and other descriptive information there.  Otherwise, feel free to use anything here as you would like!
+The dataset comes from to this [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview).
+
+## Licensing <a name="licensing"></a>
+
+ You can find the Licensing for the dataset and other descriptive information in the link above.  Other than that, feel free to use anything here as you would like!
