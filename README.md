@@ -1,6 +1,6 @@
 # Customer-Data-Analysis
 
-### Understand customers via Data Analysis and Machine Learning Models.
+### --- Understand your customers via Data Analysis and Machine Learning Models.
 
 
 
@@ -8,7 +8,7 @@
 ### Table of Contents
 
 
-1. [Project Motivation](#motivation)
+1. [Motivation and Overview](#motivation)
 2. [File Descriptions](#files)
 3. [Results](#results)
 4. [Installation](#installation)
@@ -16,10 +16,10 @@
 
 
 
-## Project Motivation and Overview<a name="motivation"></a>
+## Motivation and Overview<a name="motivation"></a>
 
-### This repository documents a data science project.
-### We analyze a credit card customer dataset and build models to answer the following questions:
+### Understanding your customers is the key to successful business decision making.
+### In this project, we analyze and model a credit card customer dataset to explore the following questions:
 
 (1). **Customer Churn Prediction**, can we predict which customers will stop using our product in the future?
 
@@ -31,20 +31,29 @@
 
 ## File Descriptions <a name="files"></a>
 
-- Notebook I: Data Cleaning and EDA.
+- 1_Notebook: Data Cleaning and EDA.
 
 
-- Notebook II: Churn Prediction.
+- 2_Notebook: Churn Prediction.
+
+              -- Customized Metric.
+              -- RandomForest, XGBoost, Logistic Classifers.
+
+- 3_Notebook: Customer Segementation.
+
+              -- PCA and K-Mean Clustering.
 
 
-- Notebook III: Customer Segementation.
+- 4_Notebook: Custermer Lifetime Value Analysis.
 
+- 0_BankChurners.csv: the raw data.
 
-- Notebook IV: Custermer Lifetime Value Analysis.
+- 1_data_after_Notebook1: a pickle file that saves the cleaned dataset for later use.
 
+- helper_functions: python file contains several helper functions.
 
+## Results Overview<a name="results"></a>
 
-## Results<a name="results"></a>
 
 The main findings of the code can be found at the post available [here](https://tba).
 
