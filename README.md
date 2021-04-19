@@ -23,7 +23,7 @@ This repository documents a data science project. In the project, we analyze and
 
  Understanding your customers is the key to successful business decision making. In this project, we analyze and model a credit card customer dataset to explore the following three questions:
 
-(1). **Customer Churn Prediction**, can we predict which customers will stop using our product in the future? 
+(1). **Customer Churn Prediction**, can we predict which customers will stop using our product in the future?
 
 (2). **Customer Segmentation**, is there a clustering structure in the dataset?
 
@@ -50,10 +50,16 @@ This repository documents a data science project. In the project, we analyze and
 
 - helper_functions: A python file contains several utility functions.
 
-## Results Overview<a name="results"></a>
+## Results<a name="results"></a>
+
+- To question (1): Model that predict customer churn with a 94% recall score on test data. Details in 2_Notebook.
+
+- To question (2): Yes! There are interesting clustering structures on the dataset (K-Mean Clustering with k=2 and k=3). Details in 3_Notebook.
+
+- To question (3): A comprehensive analysis on customer lifetime value, incorporating churn probabilty predicted in 2_Notebook. Details in 4_Notebook.
 
 
-The main findings of the code can be found at the post available [here](https://tba).
+The main findings of this project will be summarized in a post [here (currently under construction)](https://tba).
 
 ## Environment <a name="installation"></a>
 
@@ -63,7 +69,7 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Data Source <a name="source"></a>
 
-The dataset comes from to this [Kaggle competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview).
+The dataset comes from to this [Kaggle Dataset](https://www.kaggle.com/sakshigoyal7/credit-card-customers).
 
 ## Licensing <a name="licensing"></a>
 
