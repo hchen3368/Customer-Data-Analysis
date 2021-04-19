@@ -1,3 +1,5 @@
+![image](understand customer.png)
+
 # Customer-Data-Analysis
 
 ### --- Understand your customers via Data Analysis and Machine Learning Models.
@@ -33,18 +35,22 @@
 
 - 1_Notebook: Data Cleaning and EDA.
 
+              -- Impute missing data.
+              -- Encoding categorical features.
+              -- Extensive EDA.
+
 
 - 2_Notebook: Churn Prediction.
 
               -- Customized Metric.
-              -- RandomForest, XGBoost, Logistic Classifers.
+              -- RandomForest, XGBoost, Logistic Classifiers.
 
 - 3_Notebook: Customer Segementation.
 
               -- PCA and K-Mean Clustering.
 
 
-- 4_Notebook: Custermer Lifetime Value Analysis.
+- 4_Notebook: Customer Lifetime Value Analysis.
 
 - 0_BankChurners.csv: the raw data.
 
