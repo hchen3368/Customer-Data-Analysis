@@ -84,7 +84,8 @@ def grid_search_param(model, parameters, X, y, n_jobs=1, n_folds=5, scoring=None
         searcher = GridSearchCV(model, param_grid=parameters, n_jobs=n_jobs, cv=n_folds)
 
     searcher.fit(X, y)
-    print("The (best_params, best_score) are:", searcher.best_params_, searcher.best_score_)
+    print("The (best_params, best_score) in GridSearchCV are:", searcher.best_params_, searcher.best_score_)
+
 
     return searcher.best_estimator_
 
@@ -120,10 +121,14 @@ def train_tune_score(model, parameters, data, target, upsample=False, scoring=No
         model = grid_search_param(model, parameters, X_train, y_train, n_jobs=n_jobs, n_folds=n_folds, scoring=scoring)
     model = model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    
-    print(f"F1_score on test set is: {f1_score(y_test, y_pred)}")
-    print(f"Recall on test data:{recall_score(y_test, y_pred)}")
+
+    train_accuracy = model.score(X_train, y_train)
+    test_accuracy = model.score(X_test, y_test)
+
+    print(f'(train_accuracy, test_accuracy) are ({train_accuracy},{test_accuracy}).')
+    print(f"F1_score on test set is: {f1_score(y_test, y_pred)}.")
+    print(f"Recall on test data:{recall_score(y_test, y_pred)}.")
     print('Confusion Matrix:')
-    print(confusion_matrix(y_test, model.predict(X_test)))
+    print(confusion_matrix(y_test, y_pred))
 
     return model
