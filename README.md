@@ -1,4 +1,4 @@
-
+![Alt text](./know_customer_image.png)
 
 # Customer-Data-Analysis
 
@@ -59,7 +59,7 @@ This repository documents a data science project. In the project, we analyze and
 - To question (3): A comprehensive analysis on customer lifetime value, incorporating churn probabilty predicted in 2_Notebook. Details in 4_Notebook.
 
 
-The main findings of this project will be summarized in a post [here (currently under construction)](https://tba).
+The main findings of this project will be summarized in a [post on Medium](https://chen-huachen.medium.com/how-to-know-your-customers-through-data-37974aae474e).
 
 ## Environment <a name="installation"></a>
 
